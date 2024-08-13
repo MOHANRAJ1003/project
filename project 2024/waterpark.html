@@ -12,55 +12,41 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="moh">
-  <div class=" hello row p-3 m-2">
-    <div class="col-3">
-        <img src="./asset/image/images (5).jpeg" width="150" height="90">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid bg-dark p-3">
+      <a class="navbar-brand text-white" href="index.html"> <img src="./asset/image/images (5).jpeg" width="150" height="90" class="img-fluid rounded"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class= "nav-link text-white nav-link dropdown-toggle" href="dropdown-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tourist place
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shooping mall.html">Shopping Mall</a></li>
+                <li><a class="dropdown-item" href="Hotel.html">Hotels</a></li>
+                <li><a class="dropdown-item" href="waterpark.html">Waterpark</a></li>
+                <li><a class="dropdown-item" href="Religious place.html">Religious place</a></li>
+            </ul>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-
-    <div class="col-4 p-4">
-        <div class="tamil">
-        WELCOME TO TAMIL NADU
-    </div>
-    </div>
-    <div class="col-5 p-3">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="home.html">Home</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                  
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="dropdown-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tourist place
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="shooping mall.html">Shopping Mall</a></li>
-                        <li><a class="dropdown-item" href="Hotel.html">Hotels</a></li>
-                        <li><a class="dropdown-item" href="waterpark.html">Waterpark</a></li>
-                        <li><a class="dropdown-item" href="Religious place.html">Religious place</a></li>
-                    </ul>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-
-          </div>
-    </div>
+  </nav>
   
   <div class="container-fluid mt-5 pt-2 text-container">
     <!-- header start -->
@@ -87,7 +73,7 @@
     <!-- start of list of place -->
     <div class="row justify-content-evenly mt-3">
         <div class="col-lg-5 aos-init aos-animate" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-          <img src="./asset/image/nnn2.jpg" class="img-fluid border image-places">
+          <img src="https://static.toiimg.com/thumb/msid-58492080,width=1200,height=900/58492080.jpg" class="img-fluid rounded image-places">
         </div>
         <div class="col-lg-5 text-center aos-init" data-aos="fade-up" data-aos-duration="2000">
             <h2>Black Thunder</h2>
@@ -101,7 +87,7 @@
   
     <div class="row justify-content-evenly mt-3">
         <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-            <img src="./asset/image/nnn3.jpeg" class="img-fluid border image-places">
+            <img src="https://totochie.com/wp-content/uploads/2020/11/Chimelong-Water-Park-China.jpg" class="img-fluid rounded image-places">
         </div>
         <div class="col-lg-5 text-center aos-init" data-aos="fade-up" data-aos-duration="2000">
             <h2>Kishkinta Theme Park
@@ -115,7 +101,7 @@
   
     <div class="row justify-content-evenly mt-3">
         <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-            <img src="./asset/image/nnn4.jpeg" class="img-fluid border image-places">
+            <img src="./asset/image/nnn4.jpeg" class="img-fluid rounded image-places">
         </div>
         <div class="col-lg-5 text-center aos-init" data-aos="fade-up" data-aos-duration="2000">
             <h2>VGP Universal Kingdom</h2>
@@ -128,7 +114,7 @@
   
     <div class="row justify-content-evenly mt-3">
         <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-            <img src="./asset/image/nnn.jpg" class="img-fluid border image-places">
+            <img src="./asset/image/nnn.jpg" class="img-fluid rounded image-places">
         </div>
         <div class="col-lg-5 text-center aos-init" data-aos="fade-up" data-aos-duration="2000">
             <h2>Queens Land</h2>
@@ -141,7 +127,7 @@
   
     <div class="row justify-content-evenly mt-3">
         <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-          <img src="./asset/image/gettyimages-163195371-612x612.jpg" class="img-fluid border image-places">
+          <img src="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_80,w_1200/v1/crm/fresnoca/island-water-park-04426b0e5056a36_04426c29-5056-a36a-089d44a09512a8b4.jpg" class="img-fluid rounded image-places">
         </div>
         <div class="col-lg-5 text-center aos-init" data-aos="fade-up" data-aos-duration="2000">
             <h2>Kovai Kondattam</h2>
@@ -153,7 +139,7 @@
   
     <div class="row justify-content-evenly mt-3">
         <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-            <img src="./asset/image/gettyimages-185000951-612x612.jpg" class="img-fluid border image-places">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/b0/b3/78/water-park-hotels.jpg?w=1200&h=-1&s=1" class="img-fluid rounded image-places">
         </div>
         <div class="col-lg-5 text-center aos-init" data-aos="fade-up" data-aos-duration="2000">
             <h2>Aqua Kingdom
@@ -167,7 +153,7 @@
   
     <div class="row justify-content-evenly mt-3">
         <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-            <img src="./asset/image/nnn8.jpg" class="img-fluid border image-places">
+            <img src="https://i.insider.com/6581ab8f1c5c7b8c9a099e0f?width=1200&format=jpeg" class="img-fluid rounded image-places">
         </div>
         <div class="col-lg-5 text-center aos-init" data-aos="fade-up" data-aos-duration="2000">
             <h2>Wonderla Amusement Park</h2>
