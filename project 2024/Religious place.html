@@ -12,55 +12,41 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body class="gray">
-  <div class=" hello row p-3 m-2">
-    <div class="col-3">
-        <img src="./asset/image/images (5).jpeg" width="150" height="90">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid bg-dark p-3">
+      <a class="navbar-brand text-white" href="index.html"> <img src="./asset/image/images (5).jpeg" width="150" height="90" class="img-fluid rounded"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class= "nav-link text-white nav-link dropdown-toggle" href="dropdown-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tourist place
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shooping mall.html">Shopping Mall</a></li>
+                <li><a class="dropdown-item" href="Hotel.html">Hotels</a></li>
+                <li><a class="dropdown-item" href="waterpark.html">Waterpark</a></li>
+                <li><a class="dropdown-item" href="Religious place.html">Religious place</a></li>
+            </ul>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-
-    <div class="col-4 p-4">
-        <div class="tamil">
-        WELCOME TO TAMIL NADU
-    </div>
-    </div>
-    <div class="col-5 p-3">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page"  href="home.html">Home</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                  
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="dropdown-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Tourist place
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="shooping mall.html">Shopping Mall</a></li>
-                        <li><a class="dropdown-item" href="Hotel.html">Hotels</a></li>
-                        <li><a class="dropdown-item" href="waterpark.html">Waterpark</a></li>
-                        <li><a class="dropdown-item" href="Religious place.html">Religious place</a></li>
-                    </ul>
-                    </ul>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-
-          </div>
-    </div>
+  </nav>
     
     <div class="container-fluid mt-5 pt-2 text-container">
         <!-- header start -->
@@ -82,7 +68,7 @@
         <!-- start of list of place -->
         <div class="row justify-content-evenly mt-3">
             <div class="col-lg-5 aos-init aos-animate" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-                <img src="./asset/image/madurai.jpg" class="img-fluid border image-places">
+                <img src="./asset/image/madurai.jpg" class="img-fluid rounded image-places">
             </div>
             <div class="col-lg-5 text-center aos-init" data-aos="fade-up" data-aos-duration="2000">
                 <h2>Meenakshi Amman Temple</h2>
@@ -93,7 +79,7 @@
     
         <div class="row justify-content-evenly mt-3">
             <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-                <img src="./asset/image/thanji.jpg" class="img-fluid border image-places">
+                <img src="./asset/image/thanji.jpg" class="img-fluid rounded image-places">
             </div>
             <div class="col-lg-5 text-center detail-place aos-init" data-aos="fade-up" data-aos-duration="2000">
                 <h2>Brihadeeswarar Temple</h2>
@@ -104,7 +90,7 @@
     
         <div class="row justify-content-evenly mt-3">
             <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-                <img src="./asset/image/ran.jpg" class="img-fluid border image-places">
+                <img src="./asset/image/ran.jpg" class="img-fluid rounded image-places">
             </div>
             <div class="col-lg-5 text-center detail-place aos-init" data-aos="fade-up" data-aos-duration="2000">
                 <h2>Ramanathaswamy Temple</h2>
@@ -117,7 +103,7 @@
     
         <div class="row justify-content-evenly mt-3">
             <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-                <img src="./asset/image/vel.jpg" class="img-fluid border image-places">
+                <img src="./asset/image/vel.jpg" class="img-fluid rounded image-places">
             </div>
             <div class="col-lg-5 text-center detail-place babulnath aos-init" data-aos="fade-up" data-aos-duration="2000">
                 <h2>Velankanni Church</h2>
@@ -128,7 +114,7 @@
     
         <div class="row justify-content-evenly mt-3">
             <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-              <img src="./asset/image/kabali.jpg" class="img-fluid border image-places">
+              <img src="./asset/image/kabali.jpg" class="img-fluid rounded image-places">
             </div>
             <div class="col-lg-5 text-center detail-place aos-init" data-aos="fade-up" data-aos-duration="2000">
                 <h2>kapaleeshwarar temple</h2>
@@ -141,7 +127,7 @@
     
         <div class="row justify-content-evenly mt-3">
             <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-                <img src="./asset/image/thanuu.jpg" class="img-fluid border image-places">
+                <img src="./asset/image/thanuu.jpg" class="img-fluid rounded image-places">
             </div>
             <div class="col-lg-5 text-center detail-place aos-init" data-aos="fade-up" data-aos-duration="2000">
                 <h2>Vellore Golden Temple</h2>
@@ -152,7 +138,7 @@
     
         <div class="row justify-content-evenly mt-3">
           <div class="col-lg-5 aos-init" style="align-items: center;" data-aos="fade-up" data-aos-duration="2000">
-              <img src="./asset/image/nagu.jpg" class="img-fluid border image-places">
+              <img src="./asset/image/nagu.jpg" class="img-fluid rounded image-places">
           </div>
           <div class="col-lg-5 text-center detail-place aos-init" data-aos="fade-up" data-aos-duration="2000">
               <h2>Nagore Dargah</h2>
