@@ -1,0 +1,49 @@
+.hello{
+    background-color: black;
+    color: red;
+
+  
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.tamil{
+    font-size: 20px;
+}
+
+.form{
+    font-size: 20px; 
+
+ margin-left: 40%;
+ padding: 20px;
+}
+.image{
+    margin-left: 25%;
+}
+.title1{
+    background-color: rgb(10, 4, 4);
+    color: white;
+    font-family: cursive;
+}
+.hr{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pl{
+    color: yellow;
+}
+.kl{
+    padding: 20px;
+    color: gold;
+}
+.pol{
+    background-color: white;
+    color: black
+}
+.gray{
+    background-color: gold
+}
+.moh{
+    background-color: rgba(10, 75, 95, 0.836);
+}
