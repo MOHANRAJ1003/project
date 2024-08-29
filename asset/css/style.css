@@ -20,7 +20,9 @@
  padding: 20px;
 }
 .image{
-    margin-left: 25%;
+    
+    display: flex;
+    justify-content: center;
 }
 .title1{
     background-color: rgb(10, 4, 4);
